@@ -1,0 +1,35 @@
+Logging to log
+--------------------------------------
+| approxkl           | 3.552686e-05  |
+| clipfrac           | 0.0           |
+| episodes           | 0             |
+| eplenmean          | nan           |
+| eprewmean          | nan           |
+| explained_variance | -15.4         |
+| fps                | 190           |
+| nupdates           | 1             |
+| policy_entropy     | 1.9458432     |
+| policy_loss        | -0.0023060204 |
+| rapid_loss         | nan           |
+| serial_timesteps   | 128           |
+| time_elapsed       | 0.671         |
+| total_timesteps    | 128           |
+| value_loss         | 0.047055375   |
+--------------------------------------
+-------------------------------------
+| approxkl           | 2.986837e-05 |
+| clipfrac           | 0.0          |
+| episodes           | 4            |
+| eplenmean          | 270          |
+| eprewmean          | 0            |
+| explained_variance | -4.47        |
+| fps                | 440          |
+| nupdates           | 10           |
+| policy_entropy     | 1.9454905    |
+| policy_loss        | -0.002870928 |
+| rapid_loss         | 1.94         |
+| serial_timesteps   | 1280         |
+| time_elapsed       | 3.98         |
+| total_timesteps    | 1280         |
+| value_loss         | 0.0070098112 |
+-------------------------------------
