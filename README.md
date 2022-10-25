@@ -1,5 +1,7 @@
 # rapid_variants
 
+Enter each folder and run based on its own following instruction.
+
 ## rapid-origin:
 original code of rapid
 
