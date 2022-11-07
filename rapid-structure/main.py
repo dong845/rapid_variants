@@ -20,7 +20,7 @@ def argparser():
     parser.add_argument('--sl_until', help='SL until which timestep', type=int, default=100000000)
     parser.add_argument('--disable_rapid', help='Disable SL, i.e., PPO', action='store_true')
     parser.add_argument('--sl_num', help='Number of updated steps of SL', type=int, default=5)
-    parser.add_argument('--model_type', help='Model type', type=str, default="mlp")  # possible values: cnn1d, cnn2d
+    parser.add_argument('--model_type', help='Model type', type=str, default="mlp")  # possible values: cnn1d, cnn2d, impala
     return parser
 
 def main():
