@@ -4,7 +4,7 @@ from baselines.common.vec_env.vec_normalize import VecNormalize
 from baselines.common.vec_env.dummy_vec_env import DummyVecEnv
 
 from rapid.agent import learn
-from rapid.utils import MlpPolicy, MlpPolicy_cnn1d, MlpPolicy_cnn2d, make_env
+from rapid.utils import MlpPolicy, MlpPolicy_cnn1d, MlpPolicy_cnn2d, MlpPolicy_impala, make_env
 from rapid.buffer import RankingBuffer
 
 def train(args):
@@ -19,6 +19,8 @@ def train(args):
             policy_fn = MlpPolicy_cnn1d
         elif args.model_type=="cnn2d":
             policy_fn = MlpPolicy_cnn2d
+        elif args.model_type=="impala":
+            policy_fn = MlpPolicy_impala
     elif args.env == 'MiniWorld-MazeS5-v0':
         args.score_type = 'continious'
         args.train_rl = True
